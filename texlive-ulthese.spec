@@ -1,11 +1,11 @@
-# revision 27951
+# revision 29029
 # category Package
 # catalog-ctan /macros/latex/contrib/ulthese
-# catalog-date 2012-10-10 18:33:50 +0200
+# catalog-date 2013-02-04 09:52:53 +0100
 # catalog-license lppl1.3
-# catalog-version 1.0
+# catalog-version 2.1
 Name:		texlive-ulthese
-Version:	1.0
+Version:	2.1
 Release:	1
 Summary:	Thesis class and templates for Universite Laval
 Group:		Publishing
