@@ -6,7 +6,7 @@
 # catalog-version 2.1
 Name:		texlive-ulthese
 Version:	2.1
-Release:	4
+Release:	5
 Summary:	Thesis class and templates for Universite Laval
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ulthese
