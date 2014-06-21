@@ -1,12 +1,12 @@
-# revision 27951
+# revision 33306
 # category Package
 # catalog-ctan /macros/latex/contrib/ulthese
-# catalog-date 2012-10-10 18:33:50 +0200
+# catalog-date 2014-03-25 22:16:32 +0100
 # catalog-license lppl1.3
-# catalog-version 1.0
+# catalog-version 3.0a
 Name:		texlive-ulthese
-Version:	1.0
-Release:	2
+Version:	3.0a
+Release:	1
 Summary:	Thesis class and templates for Universite Laval
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ulthese
