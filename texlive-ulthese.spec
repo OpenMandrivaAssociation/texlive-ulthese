@@ -1,12 +1,6 @@
-# revision 33306
-# category Package
-# catalog-ctan /macros/latex/contrib/ulthese
-# catalog-date 2014-03-25 22:16:32 +0100
-# catalog-license lppl1.3
-# catalog-version 3.0a
 Name:		texlive-ulthese
-Version:	3.0a
-Release:	4
+Version:	4.4
+Release:	1
 Summary:	Thesis class and templates for Universite Laval
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ulthese
@@ -39,32 +33,10 @@ language of the target audience.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/ulthese/ul_p.eps
-%{_texmfdistdir}/tex/latex/ulthese/ul_p.pdf
-%{_texmfdistdir}/tex/latex/ulthese/ulthese.cls
-%doc %{_texmfdistdir}/doc/latex/ulthese/README
-%doc %{_texmfdistdir}/doc/latex/ulthese/abstract.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/annexe.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/avantpropos.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/chapitre1.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/chapitre2.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/conclusion.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/gabarit-doctorat-cotutelle.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/gabarit-doctorat-extension-UQO.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/gabarit-doctorat-extension-UdeS.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/gabarit-doctorat-mesure.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/gabarit-doctorat-multifacultaire.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/gabarit-doctorat.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/gabarit-maitrise-extension-UQAC.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/gabarit-maitrise-mesure.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/gabarit-maitrise.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/introduction.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/remerciements.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/resume.tex
-%doc %{_texmfdistdir}/doc/latex/ulthese/ulthese.pdf
+%{_texmfdistdir}/tex/latex/ulthese
+%doc %{_texmfdistdir}/doc/latex/ulthese
 #- source
-%doc %{_texmfdistdir}/source/latex/ulthese/ulthese.dtx
-%doc %{_texmfdistdir}/source/latex/ulthese/ulthese.ins
+%doc %{_texmfdistdir}/source/latex/ulthese
 
 #-----------------------------------------------------------------------
 %prep
