@@ -1,13 +1,13 @@
 Name:		texlive-ulthese
-Version:	5.2
+Version:	60217
 Release:	1
 Summary:	Thesis class and templates for Universite Laval
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ulthese
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ulthese.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ulthese.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ulthese.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ulthese.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ulthese.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ulthese.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +24,12 @@ comments in the templates are all written in French, the
 language of the target audience.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -40,7 +40,8 @@ language of the target audience.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
