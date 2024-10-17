@@ -3,7 +3,7 @@ Version:	71697
 Release:	1
 Summary:	Thesis class and templates for Universite Laval
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ulthese
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ulthese
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ulthese.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ulthese.doc.r%{version}.tar.xz
