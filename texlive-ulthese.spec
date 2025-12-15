@@ -1,5 +1,5 @@
 Name:		texlive-ulthese
-Version:	71697
+Version:	77089
 Release:	1
 Summary:	Thesis class and templates for Universite Laval
 Group:		Publishing
